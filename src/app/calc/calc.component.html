@@ -1,0 +1,30 @@
+<section>
+  <div class="soma">
+    <input type="number" [(ngModel)]="num1" name="num1">
+    <input type="number" [(ngModel)]="num2" name="num2">
+    <button (click)="somar()">Somar</button>
+    <samp>{{soma}}</samp>
+  </div>
+
+  <div class="subtrair">
+    <input type="number" [(ngModel)]="sub1" name="sub1">
+    <input type="number" [(ngModel)]="sub2" name="sub2">
+    <button (click)="sub()">Subtrair</button>
+    <samp>{{sub}}</samp>
+
+  </div>
+
+  <div class="dividir">
+    <input type="number" [(ngModel)]="dividir1" name="dividir1">
+    <input type="number" [(ngModel)]="dividir2" name="dividir2">
+    <button (click)="dividir()">Dividir</button>
+    <samp>{{dividir}}</samp>
+  </div>
+
+  <div class="multiplicar">
+    <input type="number" [(ngModel)]="mult1" name="mult1">
+    <input type="number" [(ngModel)]="mult2" name="mult2">
+    <button (click)="mult()">Multiplicar</button>
+    <samp>{{mult}}</samp>
+  </div>
+  </section>
